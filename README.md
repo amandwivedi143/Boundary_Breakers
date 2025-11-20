@@ -151,3 +151,9 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 ---
 
 Built with ❤️ using React + Vite
+The images of the website 
+<img width="1854" height="897" alt="image" src="https://github.com/user-attachments/assets/488f3477-7f51-434b-b7c3-5d214f40bed3" />
+<img width="1866" height="899" alt="image" src="https://github.com/user-attachments/assets/ce8c8416-25d3-41aa-aeeb-3815d8b9a1ce" />
+<img width="1865" height="902" alt="image" src="https://github.com/user-attachments/assets/b60728a4-a383-48e6-940b-759a171db18f" />
+<img width="1873" height="458" alt="image" src="https://github.com/user-attachments/assets/275043ff-0ce7-4a4d-8d3a-0ff39378e404" />
+
