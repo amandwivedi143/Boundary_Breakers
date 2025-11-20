@@ -1,0 +1,156 @@
+.coaches {
+  padding: 6rem 3rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f7fafc 100%);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #4a5568;
+}
+
+.coachesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+}
+
+.coachCard {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.coachCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  border-color: #1a1a1a;
+}
+
+.coachAvatar {
+  flex-shrink: 0;
+}
+
+.avatarPlaceholder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1a1a1a 0%, #4a5568 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.coachInfo {
+  flex: 1;
+}
+
+.coachName {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.coachRole {
+  font-size: 1.1rem;
+  color: #4a5568;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.coachDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.detailItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.detailLabel {
+  font-size: 0.9rem;
+  color: #718096;
+  font-weight: 500;
+}
+
+.detailValue {
+  font-size: 1rem;
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.achievement {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #2d3748;
+  font-style: italic;
+  border-left: 3px solid #1a1a1a;
+}
+
+@media (max-width: 968px) {
+  .coachesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .coachCard {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .coachInfo {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .coaches {
+    padding: 4rem 1.5rem;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .coachCard {
+    padding: 2rem;
+  }
+
+  .coachName {
+    font-size: 1.5rem;
+  }
+}
+
